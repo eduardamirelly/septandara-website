@@ -1,0 +1,4 @@
+.gradient-intro{
+    background: radial-gradient(66.58% 66.58% at 50% 33.42%, rgba(148, 122, 179, 0.9) 0%, rgba(38, 43, 68, 0.9) 100%);
+    z-index: -10;
+}
