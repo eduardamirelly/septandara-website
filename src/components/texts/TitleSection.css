@@ -1,0 +1,4 @@
+.glowing-text{
+    text-shadow: 0 0 10px #f1f1f150, 0 0 20px #f1f1f150, 0 0 10px #fee6614f, 0 0 20px #fee6614f, 0 0 30px #fee6614f, 0 0 40px #fee6614f, 0 0 50px #fee6614f;
+    border-color: #c4c4c460;
+}

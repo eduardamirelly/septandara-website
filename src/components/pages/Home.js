@@ -4,6 +4,7 @@ import Container from '../layouts/Container'
 import Section from '../layouts/Section'
 import SlideShow from '../SlideShow'
 import Description from '../texts/Description'
+import TitleSection from '../texts/TitleSection'
 import Topic from '../texts/Topic'
 import './Home.css'
 
@@ -49,7 +50,10 @@ function Home() {
           </div>
         </Section>
         <Section>
-          
+          <TitleSection text="Equipe por trás dos panos" />
+          <div className="fase-right">
+            Opa! Testando
+          </div>
         </Section>
     </Container>
   )
