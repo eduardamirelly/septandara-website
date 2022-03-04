@@ -1,9 +1,10 @@
 import React from 'react'
 import ButtonLink from '../buttons/ButtonLink'
-import BlockInfoPerson from '../layouts/BlockInfoPerson'
+import BlockInfo from '../layouts/BlockInfo'
 import Container from '../layouts/Container'
-import ImagePerson from '../layouts/ImagePerson'
+import ImageCircle from '../layouts/ImageCircle'
 import InfoPerson from '../layouts/InfoPerson'
+import InfoWorldorNPC from '../layouts/InfoWorldorNPC'
 import Section from '../layouts/Section'
 import SocialMedia from '../layouts/SocialMedia'
 import SlideShow from '../SlideShow'
@@ -32,7 +33,7 @@ function Home() {
           <div className="flex justify-center flex-col items-center xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 px-4 py-8 border-2 border-gray-100 rounded-md">
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="Downloads (Versão 1.0)" />
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center flex-wrap">
                 <ButtonLink image="/imgs/play-store.png" text="Android" link="https://github.com" />
                 <ButtonLink image="/imgs/play-store.png" text="Windows" link="https://github.com" />
               </div>
@@ -57,54 +58,99 @@ function Home() {
           <TitleSection text="Equipe por trás dos panos" />
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
-              <BlockInfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
+              <BlockInfo anim="fade-up">
+                <ImageCircle image="/imgs/back-initial.png" />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                 </InfoPerson>
-              </BlockInfoPerson>
+              </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
-              <BlockInfoPerson>
+              <BlockInfo anim="fade-up">
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                 </InfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
-              </BlockInfoPerson>
+                <ImageCircle image="/imgs/back-initial.png" />
+              </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
-              <BlockInfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
+              <BlockInfo anim="fade-up">
+                <ImageCircle image="/imgs/back-initial.png" />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                 </InfoPerson>
-              </BlockInfoPerson>
+              </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
-              <BlockInfoPerson>
+              <BlockInfo anim="fade-up">
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                 </InfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
-              </BlockInfoPerson>
+                <ImageCircle image="/imgs/back-initial.png" />
+              </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
-              <BlockInfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
+              <BlockInfo anim="fade-up">
+                <ImageCircle image="/imgs/back-initial.png" />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                 </InfoPerson>
-              </BlockInfoPerson>
+              </BlockInfo>
+            </div>
+          </div>
+        </Section>
+        <Section>
+          <TitleSection text="Conheça um pouco da história do jogo" />
+          <div className="w-10/12">
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/back-initial.png" />
+                <InfoWorldorNPC 
+                  name="Mundo Matemático" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-end">
+                <InfoWorldorNPC 
+                  name="Mundo Matemático" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  addTextAlign="text-center lg:text-right"
+                />
+                <ImageCircle image="/imgs/back-initial.png" />
+              </BlockInfo>  
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/back-initial.png" />
+                <InfoWorldorNPC 
+                  name="Mundo Matemático" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-end">
+                <InfoWorldorNPC 
+                  name="Mundo Matemático" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  addTextAlign="text-center lg:text-right"
+                />
+                <ImageCircle image="/imgs/back-initial.png" />
+              </BlockInfo>  
             </div>
           </div>
         </Section>
