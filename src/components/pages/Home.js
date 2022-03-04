@@ -56,39 +56,19 @@ function Home() {
         <Section>
           <TitleSection text="Equipe por trás dos panos" />
           <div className="w-10/12">
-            <div className="w-full flex justify-start">
+            <div className="w-full flex lg:justify-start justify-center">
               <BlockInfoPerson>
                 <ImagePerson image="/imgs/back-initial.png" />
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com">
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                 </InfoPerson>
               </BlockInfoPerson>
             </div>
-            <div className="w-full flex justify-end">
+            <div className="w-full flex lg:justify-end justify-center">
               <BlockInfoPerson>
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-end" addTextAlign="text-right">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                </InfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
-              </BlockInfoPerson>
-            </div>
-            <div className="w-full flex justify-start">
-              <BlockInfoPerson>
-                <ImagePerson image="/imgs/back-initial.png" />
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                </InfoPerson>
-              </BlockInfoPerson>
-            </div>
-            <div className="w-full flex justify-end">
-              <BlockInfoPerson>
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-end" addTextAlign="text-right">
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
@@ -96,10 +76,30 @@ function Home() {
                 <ImagePerson image="/imgs/back-initial.png" />
               </BlockInfoPerson>
             </div>
-            <div className="w-full flex justify-start">
+            <div className="w-full flex lg:justify-start justify-center">
               <BlockInfoPerson>
                 <ImagePerson image="/imgs/back-initial.png" />
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com">
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+              </BlockInfoPerson>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfoPerson>
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+              </BlockInfoPerson>
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
                   <SocialMedia image="/imgs/play-store.png" link="/" />
