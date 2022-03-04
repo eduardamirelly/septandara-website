@@ -1,7 +1,11 @@
 import React from 'react'
 import ButtonLink from '../buttons/ButtonLink'
+import BlockInfoPerson from '../layouts/BlockInfoPerson'
 import Container from '../layouts/Container'
+import ImagePerson from '../layouts/ImagePerson'
+import InfoPerson from '../layouts/InfoPerson'
 import Section from '../layouts/Section'
+import SocialMedia from '../layouts/SocialMedia'
 import SlideShow from '../SlideShow'
 import Description from '../texts/Description'
 import TitleSection from '../texts/TitleSection'
@@ -51,8 +55,57 @@ function Home() {
         </Section>
         <Section>
           <TitleSection text="Equipe por trás dos panos" />
-          <div className="fase-right">
-            Opa! Testando
+          <div className="w-10/12">
+            <div className="w-full flex justify-start">
+              <BlockInfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+              </BlockInfoPerson>
+            </div>
+            <div className="w-full flex justify-end">
+              <BlockInfoPerson>
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-end" addTextAlign="text-right">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+              </BlockInfoPerson>
+            </div>
+            <div className="w-full flex justify-start">
+              <BlockInfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+              </BlockInfoPerson>
+            </div>
+            <div className="w-full flex justify-end">
+              <BlockInfoPerson>
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-end" addTextAlign="text-right">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+              </BlockInfoPerson>
+            </div>
+            <div className="w-full flex justify-start">
+              <BlockInfoPerson>
+                <ImagePerson image="/imgs/back-initial.png" />
+                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com">
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                </InfoPerson>
+              </BlockInfoPerson>
+            </div>
           </div>
         </Section>
     </Container>
