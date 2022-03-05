@@ -13,9 +13,10 @@ import Description from '../texts/Description'
 import TitleSection from '../texts/TitleSection'
 import Topic from '../texts/Topic'
 import './Home.css'
-import logo_septandara from '/imgs/logo.png'
-import logo_playstore from '/imgs/play-store.png'
-import initial_page from '/imgs/back-initial.png'
+import logo_septandara from '../imgs/logo.png'
+import logo_playstore from '../imgs/play-store.png'
+import initial_page from '../imgs/back-initial.png'
+import npm_img from '../imgs/person.png'
 
 function Home() {
   return (
@@ -162,7 +163,7 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
@@ -177,12 +178,12 @@ function Home() {
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
@@ -197,12 +198,12 @@ function Home() {
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
@@ -217,12 +218,12 @@ function Home() {
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
@@ -237,12 +238,12 @@ function Home() {
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/person.png" />
+                <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
