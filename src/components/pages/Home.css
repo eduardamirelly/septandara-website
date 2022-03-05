@@ -4,3 +4,10 @@
     left: 0;
     right: 0;
 }
+
+.gradient-footer{
+    background: linear-gradient(180deg, #262B44 0%, #56446B 100%);
+    z-index: -10;
+    left: 0;
+    right: 0;
+}
