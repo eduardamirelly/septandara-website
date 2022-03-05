@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonLink from '../buttons/ButtonLink'
+import Footer from '../Footer'
 import BlockInfo from '../layouts/BlockInfo'
 import Container from '../layouts/Container'
 import ImageCircle from '../layouts/ImageCircle'
@@ -153,6 +154,104 @@ function Home() {
               </BlockInfo>  
             </div>
           </div>
+        </Section>
+        <Section>
+          <div className="w-10/12">
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/person.png" />
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-end">
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-right"
+                />
+                <ImageCircle image="/imgs/person.png" />
+              </BlockInfo>  
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/person.png" />
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-end">
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-right"
+                />
+                <ImageCircle image="/imgs/person.png" />
+              </BlockInfo>  
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/person.png" />
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-end">
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-right"
+                />
+                <ImageCircle image="/imgs/person.png" />
+              </BlockInfo>  
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/person.png" />
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-end">
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-right"
+                />
+                <ImageCircle image="/imgs/person.png" />
+              </BlockInfo>  
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up" addAlignCustom="justify-start">
+                <ImageCircle image="/imgs/person.png" />
+                <InfoWorldorNPC 
+                  name="Dandara" 
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  addTextAlign="text-center lg:text-left"
+                />
+              </BlockInfo>
+            </div>
+          </div>
+        </Section>
+        <Section>
+          <div className="gradient-footer absolute bottom-0 w-full h-full"></div>
+          <Footer />
         </Section>
     </Container>
   )
