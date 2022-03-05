@@ -13,13 +13,16 @@ import Description from '../texts/Description'
 import TitleSection from '../texts/TitleSection'
 import Topic from '../texts/Topic'
 import './Home.css'
+import logo_septandara from './imgs/logo.png'
+import logo_playstore from './imgs/play-store.png'
+import initial_page from './imgs/back-initial.png'
 
 function Home() {
   return (
     <Container>
         <Section>
           <div className="gradient-intro absolute top-0 w-full h-full"></div>
-          <img className="w-80" src="/imgs/logo.png" alt="" />
+          <img className="w-80" src={logo_septandara} alt="" />
           <SlideShow />
         </Section>
         <Section>
@@ -35,22 +38,22 @@ function Home() {
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="Downloads (Versão 1.0)" />
               <div className="flex justify-center items-center flex-wrap">
-                <ButtonLink image="/imgs/play-store.png" text="Android" link="https://github.com" />
-                <ButtonLink image="/imgs/play-store.png" text="Windows" link="https://github.com" />
+                <ButtonLink image={logo_playstore} text="Android" link="https://github.com" />
+                <ButtonLink image={logo_playstore} text="Windows" link="https://github.com" />
               </div>
             </div>
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="Achou algum “Bug” no jogo?" />
               <Description text="Repasse para nossa equipe através do forms abaixo:" />
               <div className="flex justify-center items-center">
-                <ButtonLink image="/imgs/play-store.png" text="Formulário" link="https://github.com" />
+                <ButtonLink image={logo_playstore} text="Formulário" link="https://github.com" />
               </div>
             </div>
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="O código do jogo está aberto" />
               <Description text="Caso alguém tenha interesse em reutilizá-lo ou observar a estruração de código" />
               <div className="flex justify-center items-center">
-                <ButtonLink image="/imgs/play-store.png" text="Código Aberto" link="https://github.com" />
+                <ButtonLink image={logo_playstore} text="Código Aberto" link="https://github.com" />
               </div>
             </div>
           </div>
@@ -60,51 +63,51 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
                 </InfoPerson>
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
                 </InfoPerson>
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
                 </InfoPerson>
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
                 </InfoPerson>
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
-                  <SocialMedia image="/imgs/play-store.png" link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={logo_playstore} link="/" />
                 </InfoPerson>
               </BlockInfo>
             </div>
@@ -115,7 +118,7 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
                 <InfoWorldorNPC 
                   name="Mundo Matemático" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
@@ -130,12 +133,12 @@ function Home() {
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
                 <InfoWorldorNPC 
                   name="Mundo Matemático" 
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
@@ -150,7 +153,7 @@ function Home() {
                   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image="/imgs/back-initial.png" />
+                <ImageCircle image={initial_page} />
               </BlockInfo>  
             </div>
           </div>
