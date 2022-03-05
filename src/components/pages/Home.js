@@ -13,9 +13,9 @@ import Description from '../texts/Description'
 import TitleSection from '../texts/TitleSection'
 import Topic from '../texts/Topic'
 import './Home.css'
-import logo_septandara from './imgs/logo.png'
-import logo_playstore from './imgs/play-store.png'
-import initial_page from './imgs/back-initial.png'
+import logo_septandara from '/imgs/logo.png'
+import logo_playstore from '/imgs/play-store.png'
+import initial_page from '/imgs/back-initial.png'
 
 function Home() {
   return (

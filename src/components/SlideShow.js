@@ -1,7 +1,7 @@
 import React from 'react'
 import Square from './buttons/Square'
 import './SlideShow.css'
-import img_00 from './imgs/back-initial.png'
+import img_00 from '/imgs/back-initial.png'
 
 function SlideShow() {
   return (
