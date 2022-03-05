@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/septandara-website/static/css/main.5c723c1c.css",
+    "main.js": "/septandara-website/static/js/main.c49a2a9d.js",
+    "index.html": "/septandara-website/index.html",
+    "main.5c723c1c.css.map": "/septandara-website/static/css/main.5c723c1c.css.map",
+    "main.c49a2a9d.js.map": "/septandara-website/static/js/main.c49a2a9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c723c1c.css",
+    "static/js/main.c49a2a9d.js"
+  ]
+}
