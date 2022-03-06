@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#demo">Visualizar Demo</a>
+  <a href="https://eduardamirelly.github.io/septandara-website/">Visualizar Site</a>
     ·
     <a href="https://github.com/eduardamirelly/septandara-website/issues/new/choose">Reportar Bug</a>
     ·
