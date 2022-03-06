@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/septandara-website/static/css/main.5c723c1c.css",
-    "main.js": "/septandara-website/static/js/main.3c924d00.js",
+    "main.css": "/septandara-website/static/css/main.fb56b776.css",
+    "main.js": "/septandara-website/static/js/main.758f133d.js",
+    "static/media/instagram.png": "/septandara-website/static/media/instagram.42e9582b190fcd04c18e.png",
     "static/media/logo-ifrn.png": "/septandara-website/static/media/logo-ifrn.905f5a2896ec9e94d4ab.png",
     "static/media/back-initial.png": "/septandara-website/static/media/back-initial.e4a3b3a2643101be0192.png",
     "static/media/play-store.png": "/septandara-website/static/media/play-store.21c5a138e14ca375820f.png",
+    "static/media/windows.png": "/septandara-website/static/media/windows.30a566c401dbc33f4398.png",
+    "static/media/google-forms.png": "/septandara-website/static/media/google-forms.9fae88c229a61adbba5f.png",
     "static/media/person.png": "/septandara-website/static/media/person.de1f1b9a6091ed1f4891.png",
     "index.html": "/septandara-website/index.html",
-    "main.5c723c1c.css.map": "/septandara-website/static/css/main.5c723c1c.css.map",
-    "main.3c924d00.js.map": "/septandara-website/static/js/main.3c924d00.js.map"
+    "main.fb56b776.css.map": "/septandara-website/static/css/main.fb56b776.css.map",
+    "main.758f133d.js.map": "/septandara-website/static/js/main.758f133d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c723c1c.css",
-    "static/js/main.3c924d00.js"
+    "static/css/main.fb56b776.css",
+    "static/js/main.758f133d.js"
   ]
 }
