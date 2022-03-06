@@ -7,7 +7,7 @@ function SlideShow() {
   return (
     <div>
         <div className="py-10 flex justify-center">
-            <div className="outline outline-18 outline-violet-200 rounded-md xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 box-shadow-violet">
+            <div className="outline sm:outline-[15px] outline-[10px] outline-violet-200 rounded-md xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 box-shadow-violet">
                 <img src={img_00} alt="img" />
             </div>
         </div>

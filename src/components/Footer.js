@@ -11,13 +11,13 @@ function Footer() {
         </div>
         <div className="flex flex-col items-center justify-center mt-8">
             <p className="text-md text-gray-100 my-1.5">
-                Código aberto. <a className="text-yellow-100 hover:text-gray-100" href="/">Clique aqui</a>
+                Código aberto. <a className="text-yellow-100 hover:text-gray-100" href="https://github.com/eduardamirelly/septandara-website">Clique aqui</a>
             </p>
             <p className="text-md text-gray-100 my-1.5">
-                Reporte bugs. <a className="text-yellow-100 hover:text-gray-100" href="/">Formulário</a>
+                Reporte bugs. <a className="text-yellow-100 hover:text-gray-100" href="https://github.com/eduardamirelly/septandara-website/issues/new">Dev Bugs Github</a>
             </p>
             <p className="text-sm text-gray-100 my-1.5">
-                septandara.game@gmail.com
+                Septandara Website
             </p>
         </div>
     </div>

@@ -19,9 +19,6 @@ module.exports = {
           '100': '#C4C4C4',
         },
       },
-      outlineWidth: {
-        '18': '18px',
-      },
     },
   },
   plugins: [],
