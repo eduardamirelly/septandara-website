@@ -17,9 +17,9 @@
 <p align="center">
   <a href="#demo">Visualizar Demo</a>
     ·
-    <a href="https://github.com/eduardamirelly/github-readme-stats/issues/new/choose">Reportar Bug</a>
+    <a href="https://github.com/eduardamirelly/septandara-website/issues/new/choose">Reportar Bug</a>
     ·
-    <a href="https://github.com/eduardamirelly/github-readme-stats/issues/new/choose">Sugestões</a>
+    <a href="https://github.com/eduardamirelly/septandara-website/issues/new/choose">Sugestões</a>
 </p>
 
 <p aligh="center">
