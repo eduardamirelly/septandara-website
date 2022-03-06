@@ -127,7 +127,7 @@ function Home() {
                 <ImageCircle image={initial_page} />
                 <InfoWorldorNPC 
                   name="Mundo Matemático" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  description="O reino central onde todos os monarcas se reúnem para conferências a fim de conservar a harmonia entre todos os reinos. Nessa esfera vivem os conteúdos que abstiveram-se de escolher desmembrar-se do reino consolidado, no período em que o mundo matemático detinha apenas de um domínio." 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -135,8 +135,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Mundo Matemático" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  name="Mundo da Álgebra" 
+                  description="Reino do mundo matemático composto de números, letras e sinais que generalizam as diversas operações aritméticas, possibilitando o desenvolvimento de equações e análises equivalentes a outras resoluções." 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={initial_page} />
@@ -146,8 +146,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={initial_page} />
                 <InfoWorldorNPC 
-                  name="Mundo Matemático" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  name="Mundo da Geometria" 
+                  description="Dominado pelas formas geométricas englobando desde o comprimento, área e volume. Nesse reino vivem todos os membros da geometria plana, analítica e espacial." 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -155,8 +155,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Mundo Matemático" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor. Mauris vitae mauris ut orci laoreet congue in at neque. Suspendisse ipsum augue, sagittis nec congue at, ultrices sed dui. Cras egestas, tellus in feugiat dignissim, dolor ipsum bibendum lorem." 
+                  name="Mundo dos Números" 
+                  description="Reino formado pelo o que designamos de ordinais, os números de ordem, e os cardinais, os números de quantidade. Os indivíduos desse reino representam medidas, ordem ou quantidade."
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={initial_page} />
@@ -171,7 +171,7 @@ function Home() {
                 <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  description="Protagonista do game, filha de Helena e neta de Tereza. Dandara é uma menina indagadora que adora solucionar questões e mistérios. Assim como sua mãe, é apaixonada pelo mundo da matemática." 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -179,8 +179,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Helena" 
+                  description="Helena, mãe de Dandara e conselheira real do reino matemático. Desde de sua infância detém facilidade e interesse pelo universo dos números." 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={npm_img} />
@@ -190,8 +190,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Tereza" 
+                  description="Tereza, avó de Dandara e mãe da conselheira real, Helena. Desfruta de uma vida pacata em sua fazenda, localizada a 3km do castelo real, com sua neta e filha." 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -199,8 +199,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Primions" 
+                  description="Filho do rei Numérios, monarca do reino matemático. Primions é um príncipe introvertido, ganancioso e teimoso. De maneira oposta a muitos cidadãos do mundo da matemática, ele não possui uma afinidade com as temáticas  da matemática, o que ocasiona uma relação conturbada com seu pai, já que ele é o progênito do trono do seu reino. " 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={npm_img} />
@@ -210,8 +210,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Numérios" 
+                  description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias. " 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -219,8 +219,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Ordium" 
+                  description="Monarca do reino Números, és um rainha agradável, prudente e dona de um raciocínio ímpar. Seu lema é manter a ordem." 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={npm_img} />
@@ -230,8 +230,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Metron" 
+                  description="Monarca do reino da geometria. Metron é um rei rígido, reservado, estável e possui uma alta cognição" 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -239,8 +239,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Adéquare" 
+                  description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias" 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={npm_img} />
@@ -250,8 +250,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={npm_img} />
                 <InfoWorldorNPC 
-                  name="Dandara" 
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu enim nec massa sodales porttitor id at tortor." 
+                  name="Mercador" 
+                  description="Proprietário de um mercado que possui uma enorme diversidade de especiarias, como porções de vida e porções de poderes. Ele é um sábio vendedor que encontra-se nas estradas dos reinos oferecendo seus produtos em troca de moedas." 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
