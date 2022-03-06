@@ -17,20 +17,16 @@
 <p align="center">
   <a href="#demo">Visualizar Demo</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Reportar Bug</a>
+    <a href="https://github.com/eduardamirelly/github-readme-stats/issues/new/choose">Reportar Bug</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Sugestões</a>
+    <a href="https://github.com/eduardamirelly/github-readme-stats/issues/new/choose">Sugestões</a>
 </p>
 
 <p aligh="center">
   <h3 align="center">💻Tecnologias utilizadas na construção do Website</h3>
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-        <img alt="ReactJS" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-        <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    </a>
+    <img alt="ReactJS" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </p>
 </p>
 
