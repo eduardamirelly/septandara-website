@@ -13,22 +13,23 @@ import Description from '../texts/Description'
 import TitleSection from '../texts/TitleSection'
 import Topic from '../texts/Topic'
 import './Home.css'
-import logo_septandara from '../imgs/logo.png'
-import logo_playstore from '../imgs/play-store.png'
-import logo_forms from '../imgs/google-forms.png'
-import logo_windows from '../imgs/windows.png'
-import logo_github from '../imgs/github.png'
-import logo_instagram from '../imgs/instagram.png'
-import logo_linkedin from '../imgs/linkedin.png'
-import initial_page from '../imgs/back-initial.png'
-import npm_img from '../imgs/person.png'
 
 function Home() {
+
+  const logo_playstore = '/imgs/play-store.png'
+  const logo_forms = '/imgs/google-forms.png'
+  const logo_github = '/imgs/github.png'
+  const logo_windows = '/imgs/windows.png'
+  const logo_instagram = '/imgs/instagram.png'
+  const logo_linkedin = '/imgs/linkedin.png'
+  const initial_page = '/imgs/back-initial.png'
+  const npm_img = '/imgs/person.png'
+
   return (
     <Container>
         <Section>
           <div className="gradient-intro absolute top-0 w-full h-full"></div>
-          <img className="w-80" src={logo_septandara} alt="" />
+          <img className="w-80" src={process.env.PUBLIC_URL + '/imgs/logo.png'} alt="" />
           <SlideShow />
         </Section>
         <Section>
@@ -44,22 +45,22 @@ function Home() {
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="Downloads (Versão 1.0)" />
               <div className="flex justify-center items-center flex-wrap">
-                <ButtonLink image={logo_playstore} text="Android" link="https://github.com" />
-                <ButtonLink image={logo_windows} text="Windows" link="https://github.com" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_playstore} text="Android" link="https://github.com" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_windows} text="Windows" link="https://github.com" />
               </div>
             </div>
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="Achou algum “Bug” no jogo?" />
               <Description text="Repasse para nossa equipe através do forms abaixo:" />
               <div className="flex justify-center items-center">
-                <ButtonLink image={logo_forms} text="Formulário" link="https://github.com" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_forms} text="Formulário" link="https://github.com" />
               </div>
             </div>
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="O código do jogo está aberto" />
               <Description text="Caso alguém tenha interesse em reutilizá-lo ou observar a estruração de código" />
               <div className="flex justify-center items-center">
-                <ButtonLink image={logo_github} text="Código Aberto" link="https://github.com/eduardamirelly/septandara-website" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_github} text="Código Aberto" link="https://github.com/eduardamirelly/septandara-website" />
               </div>
             </div>
           </div>
@@ -69,51 +70,51 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image={logo_instagram} link="https://www.instagram.com/404neves/" />
-                  <SocialMedia image={logo_linkedin} link="https://www.linkedin.com/in/eduarda-neves/" />
-                  <SocialMedia image={logo_github} link="https://github.com/eduardamirelly" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_instagram} link="https://www.instagram.com/404neves/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_linkedin} link="https://www.linkedin.com/in/eduarda-neves/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_github} link="https://github.com/eduardamirelly" />
                 </InfoPerson>
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
                 </InfoPerson>
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
                 </InfoPerson>
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
                 </InfoPerson>
                 <ImageCircle image={initial_page} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
                 <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
-                  <SocialMedia image={logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
                 </InfoPerson>
               </BlockInfo>
             </div>
@@ -124,7 +125,7 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
                 <InfoWorldorNPC 
                   name="Mundo Matemático" 
                   description="O reino central onde todos os monarcas se reúnem para conferências a fim de conservar a harmonia entre todos os reinos. Nessa esfera vivem os conteúdos que abstiveram-se de escolher desmembrar-se do reino consolidado, no período em que o mundo matemático detinha apenas de um domínio." 
@@ -139,12 +140,12 @@ function Home() {
                   description="Reino do mundo matemático composto de números, letras e sinais que generalizam as diversas operações aritméticas, possibilitando o desenvolvimento de equações e análises equivalentes a outras resoluções." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
                 <InfoWorldorNPC 
                   name="Mundo da Geometria" 
                   description="Dominado pelas formas geométricas englobando desde o comprimento, área e volume. Nesse reino vivem todos os membros da geometria plana, analítica e espacial." 
@@ -159,7 +160,7 @@ function Home() {
                   description="Reino formado pelo o que designamos de ordinais, os números de ordem, e os cardinais, os números de quantidade. Os indivíduos desse reino representam medidas, ordem ou quantidade."
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
               </BlockInfo>  
             </div>
           </div>
@@ -168,7 +169,7 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Protagonista do game, filha de Helena e neta de Tereza. Dandara é uma menina indagadora que adora solucionar questões e mistérios. Assim como sua mãe, é apaixonada pelo mundo da matemática." 
@@ -183,12 +184,12 @@ function Home() {
                   description="Helena, mãe de Dandara e conselheira real do reino matemático. Desde de sua infância detém facilidade e interesse pelo universo dos números." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
                 <InfoWorldorNPC 
                   name="Tereza" 
                   description="Tereza, avó de Dandara e mãe da conselheira real, Helena. Desfruta de uma vida pacata em sua fazenda, localizada a 3km do castelo real, com sua neta e filha." 
@@ -203,12 +204,12 @@ function Home() {
                   description="Filho do rei Numérios, monarca do reino matemático. Primions é um príncipe introvertido, ganancioso e teimoso. De maneira oposta a muitos cidadãos do mundo da matemática, ele não possui uma afinidade com as temáticas  da matemática, o que ocasiona uma relação conturbada com seu pai, já que ele é o progênito do trono do seu reino. " 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
                 <InfoWorldorNPC 
                   name="Numérios" 
                   description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias. " 
@@ -223,12 +224,12 @@ function Home() {
                   description="Monarca do reino Números, és um rainha agradável, prudente e dona de um raciocínio ímpar. Seu lema é manter a ordem." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
                 <InfoWorldorNPC 
                   name="Metron" 
                   description="Monarca do reino da geometria. Metron é um rei rígido, reservado, estável e possui uma alta cognição" 
@@ -243,12 +244,12 @@ function Home() {
                   description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias" 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
                 <InfoWorldorNPC 
                   name="Mercador" 
                   description="Proprietário de um mercado que possui uma enorme diversidade de especiarias, como porções de vida e porções de poderes. Ele é um sábio vendedor que encontra-se nas estradas dos reinos oferecendo seus produtos em troca de moedas." 
