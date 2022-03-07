@@ -24,6 +24,17 @@ function Home() {
   const logo_linkedin = '/imgs/linkedin.png'
   const initial_page = '/imgs/back-initial.png'
   const npm_img = '/imgs/person.png'
+  const npcs = [
+    '/imgs/dandara-img.png',
+    '/imgs/helena-img.png',
+    '/imgs/tereza-img.png',
+    '/imgs/primions-img.png',
+    '/imgs/numérios-img.png',
+    '/imgs/ordium-img.png',
+    '/imgs/metron-img.png',
+    '/imgs/adéquare-img.png',
+    '/imgs/mercador-img.png',
+  ]
 
   return (
     <Container>
@@ -169,7 +180,7 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[0]} />
                 <InfoWorldorNPC 
                   name="Dandara" 
                   description="Protagonista do game, filha de Helena e neta de Tereza. Dandara é uma menina indagadora que adora solucionar questões e mistérios. Assim como sua mãe, é apaixonada pelo mundo da matemática." 
@@ -184,12 +195,12 @@ function Home() {
                   description="Helena, mãe de Dandara e conselheira real do reino matemático. Desde de sua infância detém facilidade e interesse pelo universo dos números." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[1]} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[2]} />
                 <InfoWorldorNPC 
                   name="Tereza" 
                   description="Tereza, avó de Dandara e mãe da conselheira real, Helena. Desfruta de uma vida pacata em sua fazenda, localizada a 3km do castelo real, com sua neta e filha." 
@@ -204,12 +215,12 @@ function Home() {
                   description="Filho do rei Numérios, monarca do reino matemático. Primions é um príncipe introvertido, ganancioso e teimoso. De maneira oposta a muitos cidadãos do mundo da matemática, ele não possui uma afinidade com as temáticas  da matemática, o que ocasiona uma relação conturbada com seu pai, já que ele é o progênito do trono do seu reino. " 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[3]} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[4]} />
                 <InfoWorldorNPC 
                   name="Numérios" 
                   description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias. " 
@@ -224,12 +235,12 @@ function Home() {
                   description="Monarca do reino Números, és um rainha agradável, prudente e dona de um raciocínio ímpar. Seu lema é manter a ordem." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[5]} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[6]} />
                 <InfoWorldorNPC 
                   name="Metron" 
                   description="Monarca do reino da geometria. Metron é um rei rígido, reservado, estável e possui uma alta cognição" 
@@ -244,12 +255,12 @@ function Home() {
                   description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias" 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[7]} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + npm_img} />
+                <ImageCircle image={process.env.PUBLIC_URL + npcs[8]} />
                 <InfoWorldorNPC 
                   name="Mercador" 
                   description="Proprietário de um mercado que possui uma enorme diversidade de especiarias, como porções de vida e porções de poderes. Ele é um sábio vendedor que encontra-se nas estradas dos reinos oferecendo seus produtos em troca de moedas." 
