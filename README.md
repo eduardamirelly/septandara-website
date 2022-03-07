@@ -1,5 +1,5 @@
 <p align="center">
-<img width="300px" src="https://raw.githubusercontent.com/eduardamirelly/septandara-website/main/src/components/imgs/logo.png" align="center" alt="GitHub Readme Stats" />
+<img width="300px" src="https://raw.githubusercontent.com/eduardamirelly/septandara-website/main/public/imgs/logo.png" align="center" alt="GitHub Readme Stats" />
 </p>
 <h2 align="center">Septandara Website</h2>
 
