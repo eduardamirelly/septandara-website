@@ -23,7 +23,6 @@ function Home() {
   const logo_instagram = '/imgs/instagram.png'
   const logo_linkedin = '/imgs/linkedin.png'
   const initial_page = '/imgs/back-initial.png'
-  const npm_img = '/imgs/person.png'
   const npcs = [
     '/imgs/dandara-img.png',
     '/imgs/helena-img.png',
