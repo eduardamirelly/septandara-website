@@ -30,8 +30,8 @@ function Home() {
     '/imgs/primions-img.png',
     '/imgs/numérios-img.png',
     '/imgs/ordium-img.png',
-    '/imgs/metron-img.png',
     '/imgs/adéquare-img.png',
+    '/imgs/metron-img.png',
     '/imgs/mercador-img.png',
   ]
 
@@ -115,7 +115,7 @@ function Home() {
                   <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
                   <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
                 </InfoPerson>
-                <ImageCircle image={initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
@@ -146,8 +146,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Mundo da Álgebra" 
-                  description="Reino do mundo matemático composto de números, letras e sinais que generalizam as diversas operações aritméticas, possibilitando o desenvolvimento de equações e análises equivalentes a outras resoluções." 
+                  name="Mundo dos Números" 
+                  description="Reino formado pelo o que designamos de ordinais, os números de ordem, e os cardinais, os números de quantidade. Os indivíduos desse reino representam medidas, ordem ou quantidade."
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
@@ -157,8 +157,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
                 <InfoWorldorNPC 
-                  name="Mundo da Geometria" 
-                  description="Dominado pelas formas geométricas englobando desde o comprimento, área e volume. Nesse reino vivem todos os membros da geometria plana, analítica e espacial." 
+                  name="Mundo da Álgebra" 
+                  description="Reino do mundo matemático composto de números, letras e sinais que generalizam as diversas operações aritméticas, possibilitando o desenvolvimento de equações e análises equivalentes a outras resoluções." 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -166,8 +166,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Mundo dos Números" 
-                  description="Reino formado pelo o que designamos de ordinais, os números de ordem, e os cardinais, os números de quantidade. Os indivíduos desse reino representam medidas, ordem ou quantidade."
+                  name="Mundo da Geometria"
+                  description="Dominado pelas formas geométricas englobando desde o comprimento, área e volume. Nesse reino vivem todos os membros da geometria plana, analítica e espacial." 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
@@ -241,8 +241,8 @@ function Home() {
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
                 <ImageCircle image={process.env.PUBLIC_URL + npcs[6]} />
                 <InfoWorldorNPC 
-                  name="Metron" 
-                  description="Monarca do reino da geometria. Metron é um rei rígido, reservado, estável e possui uma alta cognição" 
+                  name="Adéquare" 
+                  description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias" 
                   addTextAlign="text-center lg:text-left"
                 />
               </BlockInfo>
@@ -250,8 +250,8 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-end">
                 <InfoWorldorNPC 
-                  name="Adéquare" 
-                  description="Monarca do reino da álgebra. Adéquare é um rei benévolo, agradável e astuto. Seu emblema é preservar o justo julgamento em todas as circunstâncias" 
+                  name="Metron" 
+                  description="Monarca do reino da geometria. Metron é um rei rígido, reservado, estável e possui uma alta cognição" 
                   addTextAlign="text-center lg:text-right"
                 />
                 <ImageCircle image={process.env.PUBLIC_URL + npcs[7]} />
