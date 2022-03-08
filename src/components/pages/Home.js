@@ -107,7 +107,7 @@ function Home() {
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
                 <ImageCircle image={process.env.PUBLIC_URL + equipe[2]} />
-                <InfoPerson name="Kaique José" funcao="Roteiro, Sonoplastia e Documentação de conteúdo" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
+                <InfoPerson name="Kaique José" funcao="Roteiro, Sonoplastia, Alpha-Tester e Documentação de conteúdo" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                   <SocialMedia icon={<BsInstagram />} link="https://www.instagram.com/kaique_3012/?hl=pt-br" />
                   <SocialMedia icon={<BsGithub />} link="https://github.com/KJSS3012" />
                 </InfoPerson>
@@ -140,6 +140,7 @@ function Home() {
               <BlockInfo anim="fade-up">
                 <ImageCircle image={process.env.PUBLIC_URL + equipe[6]} />
                 <InfoPerson name="Max Miller" funcao="Orientação e Auxílio teórico acerca de games" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
+                  <SocialMedia icon={<BsInstagram />} link="https://www.instagram.com/maxmillersilveira/" />
                 </InfoPerson>
               </BlockInfo>
             </div>
