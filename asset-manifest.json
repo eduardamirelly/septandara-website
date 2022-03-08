@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/septandara-website/static/css/main.fb56b776.css",
-    "main.js": "/septandara-website/static/js/main.de85059f.js",
+    "main.css": "/septandara-website/static/css/main.65a06815.css",
+    "main.js": "/septandara-website/static/js/main.a786af34.js",
     "index.html": "/septandara-website/index.html",
-    "main.fb56b776.css.map": "/septandara-website/static/css/main.fb56b776.css.map",
-    "main.de85059f.js.map": "/septandara-website/static/js/main.de85059f.js.map"
+    "main.65a06815.css.map": "/septandara-website/static/css/main.65a06815.css.map",
+    "main.a786af34.js.map": "/septandara-website/static/js/main.a786af34.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb56b776.css",
-    "static/js/main.de85059f.js"
+    "static/css/main.65a06815.css",
+    "static/js/main.a786af34.js"
   ]
 }
