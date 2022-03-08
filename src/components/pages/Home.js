@@ -13,6 +13,7 @@ import Description from '../texts/Description'
 import TitleSection from '../texts/TitleSection'
 import Topic from '../texts/Topic'
 import './Home.css'
+import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 
 function Home() {
 
@@ -20,9 +21,16 @@ function Home() {
   const logo_forms = '/imgs/google-forms.png'
   const logo_github = '/imgs/github.png'
   const logo_windows = '/imgs/windows.png'
-  const logo_instagram = '/imgs/instagram.png'
-  const logo_linkedin = '/imgs/linkedin.png'
   const initial_page = '/imgs/back-initial.png'
+  const equipe = [
+    '/imgs/Eduarda.jpg',
+    '/imgs/Wanessa.jpeg',
+    '/imgs/Kaique.jpeg',
+    '/imgs/Guilherme.jpeg',
+    '/imgs/Glaucyrlei.jpeg',
+    '/imgs/Joaildo.jpeg',
+    '/imgs/Max.jpeg',
+  ]
   const npcs = [
     '/imgs/dandara-img.png',
     '/imgs/helena-img.png',
@@ -80,51 +88,58 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" contact="E-mail: mirelly.eduarda404@gmail.com" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_instagram} link="https://www.instagram.com/404neves/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_linkedin} link="https://www.linkedin.com/in/eduarda-neves/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_github} link="https://github.com/eduardamirelly" />
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[0]} />
+                <InfoPerson name="Eduarda Mirelly" funcao="Programação, Roteiro, Sonoplastia e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
+                  <SocialMedia icon={<BsInstagram />} link="https://www.instagram.com/404neves/" />
+                  <SocialMedia icon={<BsLinkedin />} link="https://www.linkedin.com/in/eduarda-neves/" />
+                  <SocialMedia icon={<BsGithub />} link="https://github.com/eduardamirelly" />
                 </InfoPerson>
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                <InfoPerson name="Wanessa Santos" funcao="Roteiro e Documentação de conteúdo" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
+                  <SocialMedia icon={<BsInstagram />} link="/" />
                 </InfoPerson>
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[1]} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[2]} />
+                <InfoPerson name="Kaique José" funcao="Roteiro, Sonoplastia e Documentação de conteúdo" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
+                  <SocialMedia icon={<BsInstagram />} link="https://www.instagram.com/kaique_3012/?hl=pt-br" />
+                  <SocialMedia icon={<BsGithub />} link="https://github.com/KJSS3012" />
                 </InfoPerson>
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                <InfoPerson name="Guilherme Medeiros" funcao="Criação de Pixel Arts e Alpha-Tester" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
+                  <SocialMedia icon={<BsInstagram />} link="https://www.instagram.com/guilherme_caolho/" />
                 </InfoPerson>
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[3]} />
               </BlockInfo>
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up">
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
-                <InfoPerson name="Eduarda Mirelly" funcao="Desenvolvedora, Roterista e Gerenciamento de equipe" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
-                  <SocialMedia image={process.env.PUBLIC_URL + logo_playstore} link="/" />
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[4]} />
+                <InfoPerson name="Glaucyrlei Silva" funcao="Criação de Pixel Arts e Alpha-Tester" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
+                  <SocialMedia icon={<BsGithub />} link="https://github.com/GanestGamer11" />
+                </InfoPerson>
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-end justify-center">
+              <BlockInfo anim="fade-up">
+                <InfoPerson name="Joaildo Maia" funcao="Co-orientação, Seleção de questões e conteúdos matemáticos" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
+                </InfoPerson>
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[5]} />
+              </BlockInfo>
+            </div>
+            <div className="w-full flex lg:justify-start justify-center">
+              <BlockInfo anim="fade-up">
+                <ImageCircle image={process.env.PUBLIC_URL + equipe[6]} />
+                <InfoPerson name="Max Miller" funcao="Orientação e Auxílio teórico acerca de games" addAlignChildren="justify-center lg:justify-start" addTextAlign="text-center lg:text-left">
                 </InfoPerson>
               </BlockInfo>
             </div>
