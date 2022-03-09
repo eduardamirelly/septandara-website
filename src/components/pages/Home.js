@@ -21,7 +21,12 @@ function Home() {
   const logo_forms = '/imgs/google-forms.png'
   const logo_github = '/imgs/github.png'
   const logo_windows = '/imgs/windows.png'
-  const initial_page = '/imgs/back-initial.png'
+  const worlds = [
+    '/imgs/worldmath.png',
+    '/imgs/worldnumber.png',
+    '/imgs/worldalgebra.png',
+    '/imgs/worldgeometry.png',
+  ]
   const equipe = [
     '/imgs/Eduarda.jpg',
     '/imgs/Wanessa.jpeg',
@@ -51,7 +56,7 @@ function Home() {
           <SlideShow />
         </Section>
         <Section>
-          <iframe className="custom-iframe xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 xl:h-[30rem] lg:h-[25rem] md:h-[26rem] h-[20rem]" src="https://www.youtube.com/embed/70d9irlxiB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="custom-iframe xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 xl:h-[30rem] lg:h-[25rem] md:h-[26rem] h-[20rem]" src="https://www.youtube.com/embed/-BgkDARGDM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div className="mt-8 w-9/12 flex justify-center">
             <h4 className="text-lg text-gray-100 text-center font-semibold">
               Ajude Dandara a salvar sua mãe e os monarcas em um aventura matemática emocionante.
@@ -99,7 +104,7 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
                 <InfoPerson name="Wanessa Santos" funcao="Roteiro e Documentação de conteúdo" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia icon={<BsInstagram />} link="/" />
+                  <SocialMedia icon={<BsLinkedin />} link="/" />
                 </InfoPerson>
                 <ImageCircle image={process.env.PUBLIC_URL + equipe[1]} />
               </BlockInfo>
@@ -151,7 +156,7 @@ function Home() {
           <div className="w-10/12">
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + worlds[0]} />
                 <InfoWorldorNPC 
                   name="Mundo Matemático" 
                   description="O reino central onde todos os monarcas se reúnem para conferências a fim de conservar a harmonia entre todos os reinos. Nessa esfera vivem os conteúdos que abstiveram-se de escolher desmembrar-se do reino consolidado, no período em que o mundo matemático detinha apenas de um domínio." 
@@ -166,12 +171,12 @@ function Home() {
                   description="Reino formado pelo o que designamos de ordinais, os números de ordem, e os cardinais, os números de quantidade. Os indivíduos desse reino representam medidas, ordem ou quantidade."
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + worlds[1]} />
               </BlockInfo>  
             </div>
             <div className="w-full flex lg:justify-start justify-center">
               <BlockInfo anim="fade-up" addAlignCustom="justify-start">
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + worlds[2]} />
                 <InfoWorldorNPC 
                   name="Mundo da Álgebra" 
                   description="Reino do mundo matemático composto de números, letras e sinais que generalizam as diversas operações aritméticas, possibilitando o desenvolvimento de equações e análises equivalentes a outras resoluções." 
@@ -186,7 +191,7 @@ function Home() {
                   description="Dominado pelas formas geométricas englobando desde o comprimento, área e volume. Nesse reino vivem todos os membros da geometria plana, analítica e espacial." 
                   addTextAlign="text-center lg:text-right"
                 />
-                <ImageCircle image={process.env.PUBLIC_URL + initial_page} />
+                <ImageCircle image={process.env.PUBLIC_URL + worlds[3]} />
               </BlockInfo>  
             </div>
           </div>
