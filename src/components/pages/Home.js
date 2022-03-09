@@ -52,7 +52,7 @@ function Home() {
     <Container>
         <Section>
           <div className="gradient-intro absolute top-0 w-full h-full"></div>
-          <img className="w-80" src={process.env.PUBLIC_URL + '/imgs/logo.png'} alt="" />
+          <img className="w-80" src={process.env.PUBLIC_URL + '/imgs/logo.svg'} alt="" />
           <SlideShow />
         </Section>
         <Section>
@@ -104,7 +104,7 @@ function Home() {
             <div className="w-full flex lg:justify-end justify-center">
               <BlockInfo anim="fade-up">
                 <InfoPerson name="Wanessa Santos" funcao="Roteiro e Documentação de conteúdo" addAlignChildren="justify-center lg:justify-end" addTextAlign="text-center lg:text-right">
-                  <SocialMedia icon={<BsLinkedin />} link="/" />
+                  <SocialMedia icon={<BsLinkedin />} link="https://www.linkedin.com/in/wanessa-santos-32a1a8234" />
                 </InfoPerson>
                 <ImageCircle image={process.env.PUBLIC_URL + equipe[1]} />
               </BlockInfo>
