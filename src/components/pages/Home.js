@@ -66,18 +66,19 @@ function Home() {
         <Section>
           <div className="flex justify-center flex-col items-center xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12 px-4 py-8 border-2 border-gray-100 rounded-md">
             <div className="my-4 flex flex-col justify-center items-center">
-              <Topic text="Downloads (Versão 1.0)" />
+              <Topic text="Downloads (Versão Alpha 1.0)" />
               <div className="flex justify-center items-center flex-wrap">
-                <ButtonLink image={process.env.PUBLIC_URL + logo_playstore} text="Android" link="https://github.com" />
-                <ButtonLink image={process.env.PUBLIC_URL + logo_windows} text="Windows" link="https://github.com" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_playstore} text="Android" link="https://github.com/eduardamirelly/septandara-game/releases/tag/v1.0.0-alpha" />
+                {/* <ButtonLink image={process.env.PUBLIC_URL + logo_windows} text="Windows" link="https://github.com" /> */}
               </div>
             </div>
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="Achou algum “Bug” no jogo?" />
-              <Description text="Repasse para nossa equipe através do forms abaixo:" />
+              <Description text="Repasse para nossa equipe através do github issues abaixo:" />
               <div className="flex justify-center items-center">
-                <ButtonLink image={process.env.PUBLIC_URL + logo_forms} text="Formulário" link="https://github.com" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_github} text="Github Issues" link="https://github.com/eduardamirelly/septandara-game/issues/new" />
               </div>
+              <Description text="Caso não possua Github, enquanto não adicionamos um formulário contate os desenvolvedores por esse seguinte email: mirelly.eduarda404@gmail.com" />
             </div>
             <div className="my-4 flex flex-col justify-center items-center">
               <Topic text="O código do jogo está aberto" />
