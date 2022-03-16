@@ -84,7 +84,7 @@ function Home() {
               <Topic text="O código do jogo está aberto" />
               <Description text="Caso alguém tenha interesse em reutilizá-lo ou observar a estruração de código" />
               <div className="flex justify-center items-center">
-                <ButtonLink image={process.env.PUBLIC_URL + logo_github} text="Código Aberto" link="https://github.com/eduardamirelly/septandara-website" />
+                <ButtonLink image={process.env.PUBLIC_URL + logo_github} text="Código Aberto" link="https://github.com/eduardamirelly/septandara-game" />
               </div>
             </div>
           </div>
